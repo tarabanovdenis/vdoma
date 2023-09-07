@@ -528,11 +528,11 @@ input[type="submit"]::-moz-focus-inner {
 @-moz-keyframes flickerPhoto {
   0% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   20% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   40% {
     opacity: 0.7;
@@ -544,21 +544,21 @@ input[type="submit"]::-moz-focus-inner {
   }
   80% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   100% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
 }
 @-webkit-keyframes flickerPhoto {
   0% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   20% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   40% {
     opacity: 0.7;
@@ -570,21 +570,21 @@ input[type="submit"]::-moz-focus-inner {
   }
   80% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   100% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
 }
 @-o-keyframes flickerPhoto {
   0% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   20% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   40% {
     opacity: 0.7;
@@ -596,21 +596,21 @@ input[type="submit"]::-moz-focus-inner {
   }
   80% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   100% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
 }
 @keyframes flickerPhoto {
   0% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   20% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   40% {
     opacity: 0.7;
@@ -622,11 +622,11 @@ input[type="submit"]::-moz-focus-inner {
   }
   80% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
   100% {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
 }
 html {
@@ -861,12 +861,14 @@ nav .help_minified {
 .logos {
   font-size: 0;
   display: inline-block;
-  margin-left: 8vmax;
+  margin-left: 2.5vmax;
   vertical-align: middle;
+  line-height: 0.9;
 }
 .logos__item {
   display: inline-block;
-  vertical-align: middle;
+  margin-left: 0.6vmax;
+  vertical-align: top;
 }
 .logos__item:first-child {
   margin-right: 2vmax;
@@ -882,6 +884,11 @@ nav .help_minified {
   width: 41.5px;
   height: 35px;
   background: url("../img/logos-HG.png") no-repeat;
+}
+.logos__label {
+  font-size: 0.9vmax;
+  display: inline-block;
+  vertical-align: top;
 }
 @media only screen and (max-width: 1300px) {
   .logos {
@@ -962,64 +969,64 @@ nav .logo {
   vertical-align: top;
 }
 .hero-pics__item:nth-child(1) {
-  flex-basis: 7vmax;
+  flex-basis: 4vmax;
   animation-duration: 12s;
-  animation-delay: 0s;
+  animation-delay: 15s;
 }
 .hero-pics__item:nth-child(2) {
-  flex-basis: 14vmax;
-  animation-duration: 12s;
-  animation-delay: 6s;
-}
-.hero-pics__item:nth-child(3) {
-  flex-basis: 15vmax;
+  flex-basis: 5vmax;
   animation-duration: 12s;
   animation-delay: 9s;
 }
-.hero-pics__item:nth-child(4) {
-  flex-basis: 17vmax;
+.hero-pics__item:nth-child(3) {
+  flex-basis: 20vmax;
   animation-duration: 12s;
-  animation-delay: 22s;
+  animation-delay: 7s;
+}
+.hero-pics__item:nth-child(4) {
+  flex-basis: 0vmax;
+  animation-duration: 12s;
+  animation-delay: 23s;
 }
 .hero-pics__item:nth-child(5) {
-  flex-basis: 19vmax;
+  flex-basis: 9vmax;
   animation-duration: 12s;
   animation-delay: 7s;
 }
 .hero-pics__item:nth-child(6) {
-  flex-basis: 8vmax;
+  flex-basis: 12vmax;
   animation-duration: 12s;
-  animation-delay: 11s;
+  animation-delay: 17s;
 }
 .hero-pics__item:nth-child(7) {
-  flex-basis: 1vmax;
+  flex-basis: 6vmax;
   animation-duration: 12s;
-  animation-delay: 11s;
+  animation-delay: 15s;
 }
 .hero-pics__item:nth-child(8) {
-  flex-basis: 11vmax;
-  animation-duration: 12s;
-  animation-delay: 24s;
-}
-.hero-pics__item:nth-child(9) {
-  flex-basis: 8vmax;
-  animation-duration: 12s;
-  animation-delay: 3s;
-}
-.hero-pics__item:nth-child(10) {
-  flex-basis: 3vmax;
-  animation-duration: 12s;
-  animation-delay: 9s;
-}
-.hero-pics__item:nth-child(11) {
-  flex-basis: 2vmax;
-  animation-duration: 12s;
-  animation-delay: 12s;
-}
-.hero-pics__item:nth-child(12) {
   flex-basis: 4vmax;
   animation-duration: 12s;
-  animation-delay: 11s;
+  animation-delay: 7s;
+}
+.hero-pics__item:nth-child(9) {
+  flex-basis: 1vmax;
+  animation-duration: 12s;
+  animation-delay: 5s;
+}
+.hero-pics__item:nth-child(10) {
+  flex-basis: 7vmax;
+  animation-duration: 12s;
+  animation-delay: 22s;
+}
+.hero-pics__item:nth-child(11) {
+  flex-basis: 0vmax;
+  animation-duration: 12s;
+  animation-delay: 15s;
+}
+.hero-pics__item:nth-child(12) {
+  flex-basis: 18vmax;
+  animation-duration: 12s;
+  animation-delay: 12s;
 }
 .hero-pics_start .hero-pics__item:nth-child(3) {
   animation-duration: 8s;
@@ -1036,6 +1043,9 @@ nav .logo {
 }
 .highlighted-text {
   color: #174afa;
+}
+.belt_bg_2 .highlighted-text {
+  color: #f7ec67;
 }
 .header {
   font-size: 1.4vmax;
@@ -1094,6 +1104,9 @@ nav .logo {
 }
 .we-help__head .headline {
   min-width: 40%;
+}
+.section_increase_indent .headline_self.headline_sub {
+  mix-blend-mode: color-burn;
 }
 @media only screen and (max-width: 840px) {
   .headline {
@@ -1371,6 +1384,7 @@ img.inline-pic_special_img {
   flex: 0 1 57.58%;
   box-sizing: border-box;
   padding-right: 8.4%;
+  padding-top: 1.32vmax;
 }
 .about__desc p {
   margin-bottom: 2vmax;
@@ -1382,7 +1396,7 @@ img.inline-pic_special_img {
   justify-content: flex-start;
   align-items: flex-start;
   align-content: stretch;
-  margin: 3.3vmax 0;
+  margin: 2.2vmax 0;
   white-space: nowrap;
 }
 .team__row {
@@ -1526,13 +1540,13 @@ img.inline-pic_special_img {
   font-size: 2vmax;
   flex-direction: column;
   padding: 6.600000000000001vmax 4.4vmax;
-  background: url("../img/belt-bg_1.jpg") no-repeat 50% 50%;
+  background: url("../img/belt-bg_1-1.png") no-repeat 50% 50%;
   background-size: cover;
-  color: #191919;
+  color: #fff;
 }
 .belt_bg_2:hover {
   padding: 7.700000000000001vmax 4.4vmax;
-  box-shadow: 0 0 5.5vmax #67c3ff;
+  box-shadow: 0 0 5.5vmax #7e8286;
 }
 .belt__headline {
   font-family: 'NAMU-1750', Serif;

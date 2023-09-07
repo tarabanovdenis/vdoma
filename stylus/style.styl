@@ -294,14 +294,17 @@ nav .help_minified
 
   display: inline-block;
 
-  margin-left: 8vmax
+  margin-left: 2.5vmax
 
   vertical-align: middle;
+  line-height: 0.9
 
 .logos__item
   display: inline-block;
 
-  vertical-align: middle;
+  margin-left: 0.6vmax
+
+  vertical-align: top;
 
 .logos__item:first-child
   margin-right: 2vmax
@@ -311,6 +314,13 @@ nav .help_minified
 
 .logos__hg
   ico('../img/logos-HG.png')
+
+.logos__label
+  font-size: 0.9vmax
+
+  display: inline-block;
+
+  vertical-align: top
 
 @media only screen and (max-width: $mediaQuery1)
   .logos
@@ -447,6 +457,9 @@ for num in (1..12)
 .highlighted-text
   color: $color.contrast_1
 
+.belt_bg_2 .highlighted-text
+  color: $color.contrast_0
+
 
 // header
 .header
@@ -523,6 +536,9 @@ for num in (1..12)
 
 .we-help__head .headline
   min-width: 40%
+
+.section_increase_indent .headline_self.headline_sub
+  mix-blend-mode: color-burn;
 
 
 @media only screen and (max-width: $mediaQuery2)
@@ -875,6 +891,7 @@ img.inline-pic_special_img
 
   box-sizing: border-box;
   padding-right: 8.4%
+  padding-top: ($step*1.2);
 
 .about__desc p
   margin-bottom: 2vmax
@@ -889,7 +906,7 @@ img.inline-pic_special_img
   align-items flex-start
   align-content stretch
 
-  margin: ($step*3) 0
+  margin: ($step*2) 0
 
   white-space: nowrap;
 
@@ -1082,14 +1099,14 @@ img.inline-pic_special_img
 
   padding: ($step*6) ($step*4)
 
-  background: url(../img/belt-bg_1.jpg) no-repeat 50% 50%;
+  background: url(../img/belt-bg_1-1.png) no-repeat 50% 50%;
   background-size cover
-  color $color.text
+  color $color.bg
 
 .belt_bg_2:hover
   padding: ($step*7) ($step*4);
 
-  box-shadow: 0 0 ($step*5) rgb(103 195 255)
+  box-shadow: 0 0 ($step*5) #7e8286
 
 .belt__headline
   font-family: 'NAMU-1750', Serif;
